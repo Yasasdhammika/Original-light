@@ -1,0 +1,122 @@
+
+
+
+.hero {
+  background-image: url('Acessts/pexels-photo-3184357.jpeg');
+  background-size: cover;
+  text-align: left;
+  padding: 200px;
+  color: black;
+}
+.herodark {
+  background-image: url('Acessts/Dark.jpg');
+  background-size: cover;
+  text-align: left;
+  padding: 200px;
+  color: black;
+}
+span.dark-blue{
+  color: blue;
+}
+
+.button2 {
+  display: inline-block;
+  border-radius: 40px;
+  background-color: blue;
+  border: none;
+  color: White;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button2dark {
+  display: inline-block;
+  border-radius: 40px;
+  background-color: blue;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button1 {
+  display: inline-block;
+  border-radius: 40px;
+  background-color: white;
+  border: 3px solid blue;
+  color: black;
+  text-align: center;
+  font-size: 27px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.buttondark {
+  display: inline-block;
+  border-radius: 40px;
+  background-color: black;
+  border: 3px solid blue;
+  color: white;
+  text-align: center;
+  font-size: 27px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+/*Footer*/
+
+footer {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+/*  navbar media    */
+@media screen and (max-width: 728px){
+  section.herodark{
+    padding: 80px;
+  }
+  }
+
+  @media screen and (max-width: 428px){
+    section.herodark{
+      padding: 80px;
+    }
+    }
+
+    @media screen and (max-width: 728px){
+      section.hero{
+        padding: 80px;
+      }
+      }
+      @media screen and (max-width: 428px){
+        section.hero{
+          padding: 80px;
+        }
+        }
+
+        @media screen and (max-width: 728px){
+          div.display-2{
+            font-size: 50px;
+          }
+          }
+@media (min-width: 700px) {
+  .font-control {
+    font-size: 1rem;
+  }
+}
