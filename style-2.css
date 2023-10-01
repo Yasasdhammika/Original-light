@@ -9,7 +9,7 @@
   color: black;
 }
 .herodark {
-  background-image: url('Acessts/Dark.jpg');
+  background-image: url('Acessts/Dark wallpaper.jpg');
   background-size: cover;
   text-align: left;
   padding: 200px;
@@ -17,6 +17,9 @@
 }
 span.dark-blue{
   color: blue;
+}
+nav.color{
+  background-color: #363636;
 }
 
 .button2 {
@@ -78,26 +81,40 @@ span.dark-blue{
 /*Footer*/
 
 footer {
-  background-color: blue;
+  background-color: rgb(23, 23, 23);
   color: white;
-  padding: 10px;
+  padding: 20px;
+  text-align: center;
+}
+footer.light {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 8, 255);
+  padding: 20px;
   text-align: center;
 }
 
 
 
 /*  navbar media    */
-@media screen and (max-width: 728px){
-  section.herodark{
+
+
+
+      @media screen and (max-width: 1190px){
+    section.herodark{
+      padding: 100px;
+    }
+    }
+@media screen and (max-width: 728px) {
+  section.herodark {
     padding: 80px;
   }
-  }
+}
+     @media screen and (max-width: 428px) {
+       section.herodark {
+         padding: 30px;
+       }
+     }
 
-  @media screen and (max-width: 428px){
-    section.herodark{
-      padding: 80px;
-    }
-    }
 
     @media screen and (max-width: 728px){
       section.hero{
@@ -111,12 +128,23 @@ footer {
         }
 
         @media screen and (max-width: 728px){
-          div.display-2{
-            font-size: 50px;
+          h1.display-2{
+            font-size: 45px;
           }
           }
-@media (min-width: 700px) {
-  .font-control {
-    font-size: 1rem;
+          
+@media screen and (max-width: 428px) {
+  h1.display-2 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 728px) {
+  p.lead {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 428px) {
+  p.lead {
+    font-size: 15px;
   }
 }
